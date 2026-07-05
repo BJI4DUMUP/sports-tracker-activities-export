@@ -1,6 +1,6 @@
-# Sports Tracker Bulk Exporter
+# Sports Tracker Activities Exporter
 
-A bulletproof, UI-independent script to export all of your workout data (GPX files and photos) from [Sports-Tracker.com](https://www.sports-tracker.com/).
+Script to export all of your workout data (GPX files and photos) from [Sports-Tracker.com](https://www.sports-tracker.com/).
 
 ### Why this script?
 Older export scripts relied on web-scraping the Sports Tracker dashboard HTML. Whenever the website's design was updated, those scripts would break (throwing errors like `Cannot read properties of null`). 
@@ -11,7 +11,7 @@ This updated script **bypasses the website's UI entirely**. It communicates dire
 * Extracts all `.gpx` files and attached photos.
 * Generates native download scripts for both **Windows** (Batch) and **Mac/Linux** (Bash).
 * Automatically maps internal activity IDs to readable folder names (Run, Walk, Rollerblading, Hiking, etc.).
-* Completely safe: The script runs locally in your browser and does not save, store, or share your session tokens.
+* The script runs locally in your browser and does not save, store, or share your session tokens.
 
 ---
 
@@ -21,7 +21,7 @@ This updated script **bypasses the website's UI entirely**. It communicates dire
 1. Log into your account at [sports-tracker.com/dashboard](https://www.sports-tracker.com/dashboard).
 2. Open your browser's Developer Tools Console:
    * **Chrome/Edge/Firefox:** Press `F12` or `Ctrl + Shift + I` (Windows) / `Cmd + Option + I` (Mac) and click the **Console** tab.
-3. Choose the JavaScript snippet below that matches your Operating System and paste it into the console, then hit **Enter**.
+3. Copy the content from @ExportScript-bat.js (for Windows) or @ExportScript-sh.js (for Mac/Linux) and paste it into the browser console, then hit **Enter**.
 4. The console will print out a large block of text. This is your custom download script!
 
 ### Step 2: Run the Download Script
