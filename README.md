@@ -1,4 +1,4 @@
-# Sports Tracker Activities Exporter
+# 🚴‍♂️🏃‍♂️ Sports Tracker Activities Exporter ⤵️
 
 Script to export all of your workout data (GPX files and photos) from [Sports-Tracker.com](https://www.sports-tracker.com/).
 
