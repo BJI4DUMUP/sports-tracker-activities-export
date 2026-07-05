@@ -2,11 +2,6 @@
 
 Script to export all of your workout data (GPX files and photos) from [Sports-Tracker.com](https://www.sports-tracker.com/).
 
-### Why this script?
-Older export scripts relied on web-scraping the Sports Tracker dashboard HTML. Whenever the website's design was updated, those scripts would break (throwing errors like `Cannot read properties of null`). 
-
-This updated script **bypasses the website's UI entirely**. It communicates directly with the internal Sports Tracker API to securely fetch your complete workout history in seconds. It guarantees successful downloads regardless of website redesigns.
-
 ## Features
 * Extracts all `.gpx` files and attached photos.
 * Generates native download scripts for both **Windows** (Batch) and **Mac/Linux** (Bash).
