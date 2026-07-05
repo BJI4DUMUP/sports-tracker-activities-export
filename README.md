@@ -21,7 +21,7 @@ This updated script **bypasses the website's UI entirely**. It communicates dire
 1. Log into your account at [sports-tracker.com/dashboard](https://www.sports-tracker.com/dashboard).
 2. Open your browser's Developer Tools Console:
    * **Chrome/Edge/Firefox:** Press `F12` or `Ctrl + Shift + I` (Windows) / `Cmd + Option + I` (Mac) and click the **Console** tab.
-3. Copy the content from @ExportScript-bat.js (for Windows) or @ExportScript-sh.js (for Mac/Linux) and paste it into the browser console, then hit **Enter**.
+3. Copy the content from `ExportScript-bat.js` (for Windows) or `ExportScript-sh.js` (for Mac/Linux) and paste it into the browser console, then hit **Enter**.
 4. The console will print out a large block of text. This is your custom download script!
 
 ### Step 2: Run the Download Script
@@ -33,7 +33,7 @@ This updated script **bypasses the website's UI entirely**. It communicates dire
 3. Click `File` -> `Save As`.
 4. In the "Save as type" dropdown, select **All Files (*.*)**.
 5. Name the file `download.bat` and save it to an empty folder where you want your workouts to go.
-6. **Double-click** `download.bat`. A black command window will appear and safely download all your workouts using Windows' built-in curl tool. No PowerShell security policies to bypass!
+6. **Double-click** `download.bat`. A black command window will appear and safely download all your workouts using Windows' built-in curl tool.
 
 #### 🍏🐧 For Mac & Linux Users (Using `download.sh`)
 *Copy the script generated in your browser console:*
